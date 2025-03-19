@@ -1,0 +1,20 @@
+uuid: 85d5ff9b-e521-4189-9e8d-ee8eaf145f71
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - worldcampus
+id: worldcampus_content
+theme: worldcampus
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

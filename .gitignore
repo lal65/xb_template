@@ -1,0 +1,7 @@
+vendor
+web/sites/*/files
+web/sites/*/settings.php
+web/core
+web/modules/contrib
+web/themes/contrib
+.idea
