@@ -1,0 +1,68 @@
+uuid: 92a32425-79ae-4f56-8133-16b39aca8ef6
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+  theme:
+    - worldcampus
+label: 'Social Icon'
+id: sdc.worldcampus.social-icon
+provider: worldcampus
+source: sdc
+category: 'Molecule/Social Icon'
+settings:
+  plugin_id: 'worldcampus:social-icon'
+  prop_field_definitions:
+    icon:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: blog
+            label: blog
+          -
+            value: facebook
+            label: facebook
+          -
+            value: flickr
+            label: flickr
+          -
+            value: instagram
+            label: instagram
+          -
+            value: linkedin
+            label: linkedin
+          -
+            value: pinterest
+            label: pinterest
+          -
+            value: tiktok
+            label: tiktok
+          -
+            value: twitter
+            label: twitter
+          -
+            value: youtube
+            label: youtube
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: youtube
+      expression: ℹ︎list_string␟value
+    label:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: YouTube
+      expression: ℹ︎string␟value
+    url:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'https://www.youtube.com'
+      expression: ℹ︎string␟value

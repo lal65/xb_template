@@ -1,0 +1,18 @@
+uuid: 47905412-1a32-4de4-8064-18b34471941e
+langcode: en
+status: true
+dependencies: {  }
+label: Tabs
+id: block.local_tasks_block
+provider: core
+source: block
+category: core
+settings:
+  plugin_id: local_tasks_block
+  default_settings:
+    id: local_tasks_block
+    label: Tabs
+    label_display: ''
+    provider: core
+    primary: true
+    secondary: true

@@ -1,0 +1,51 @@
+uuid: 9524cdac-ba99-4238-bd10-3d6d5d4adf82
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+label: 'Shoe Tab Group'
+id: sdc.experience_builder.shoe_tab_group
+provider: experience_builder
+source: sdc
+category: Container/Special
+settings:
+  plugin_id: 'experience_builder:shoe_tab_group'
+  prop_field_definitions:
+    activation:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: auto
+      expression: ℹ︎string␟value
+    no_scroll:
+      field_type: boolean
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: boolean_checkbox
+      default_value:
+        value: 0
+      expression: ℹ︎boolean␟value
+    placement:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: top
+            label: top
+          -
+            value: bottom
+            label: bottom
+          -
+            value: start
+            label: start
+          -
+            value: end
+            label: end
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: top
+      expression: ℹ︎list_string␟value

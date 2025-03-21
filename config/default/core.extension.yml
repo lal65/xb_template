@@ -12,14 +12,16 @@ module:
   datetime: 0
   dblog: 0
   editor: 0
+  experience_builder: 0
   field: 0
   field_ui: 0
   file: 0
   filter: 0
-  gin_toolbar: 0
   history: 0
   image: 0
   link: 0
+  media: 0
+  media_library: 0
   menu_link_content: 0
   menu_ui: 0
   node: 0
@@ -36,8 +38,10 @@ module:
   twig_tweak: 0
   user: 0
   views_ui: 0
+  worldcampus_xb: 0
+  xb_dev_standard: 0
   views: 10
 theme:
-  claro: 0
   worldcampus: 0
-  gin: 0
+  xb_stark: 0
+  claro: 0

@@ -1,0 +1,31 @@
+uuid: ebc39a26-7be9-4c19-90ab-3495c04f3907
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+  theme:
+    - worldcampus
+label: 'PSU Footer'
+id: sdc.worldcampus.footer
+provider: worldcampus
+source: sdc
+category: Molecule/Footer
+settings:
+  plugin_id: 'worldcampus:footer'
+  prop_field_definitions:
+    bottom_background:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: default
+            label: default
+          -
+            value: white
+            label: white
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: default
+      expression: ℹ︎list_string␟value

@@ -1,0 +1,18 @@
+uuid: c664a75a-fe78-4333-b653-a8284632718a
+langcode: en
+status: true
+dependencies: {  }
+label: "Who's new"
+id: block.views_block.who_s_new-block_1
+provider: views
+source: block
+category: User
+settings:
+  plugin_id: 'views_block:who_s_new-block_1'
+  default_settings:
+    id: 'views_block:who_s_new-block_1'
+    label: "Who's new"
+    label_display: ''
+    provider: views
+    views_label: ''
+    items_per_page: none

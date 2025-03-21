@@ -1,0 +1,16 @@
+uuid: 9d81135d-d09c-4139-91fa-ed6909a4930a
+langcode: en
+status: true
+dependencies: {  }
+label: 'Primary admin actions'
+id: block.local_actions_block
+provider: core
+source: block
+category: core
+settings:
+  plugin_id: local_actions_block
+  default_settings:
+    id: local_actions_block
+    label: 'Primary admin actions'
+    label_display: ''
+    provider: core

@@ -1,0 +1,37 @@
+uuid: a6b2abfd-8ada-40d7-8ebf-4fc202f87cb6
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+  theme:
+    - worldcampus
+label: Grid
+id: sdc.worldcampus.grid
+provider: worldcampus
+source: sdc
+category: Molecule/Grid
+settings:
+  plugin_id: 'worldcampus:grid'
+  prop_field_definitions:
+    columns:
+      field_type: list_integer
+      field_storage_settings:
+        allowed_values:
+          -
+            value: 1
+            label: '1'
+          -
+            value: 2
+            label: '2'
+          -
+            value: 3
+            label: '3'
+          -
+            value: 4
+            label: '4'
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: 3
+      expression: ℹ︎list_integer␟value

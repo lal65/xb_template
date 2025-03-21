@@ -1,0 +1,19 @@
+uuid: 504f00a1-ca19-4309-9259-a3a56f55c960
+langcode: en
+status: true
+dependencies: {  }
+label: 'User account menu'
+id: block.system_menu_block.account
+provider: system
+source: block
+category: Menus
+settings:
+  plugin_id: 'system_menu_block:account'
+  default_settings:
+    id: 'system_menu_block:account'
+    label: 'User account menu'
+    label_display: ''
+    provider: system
+    level: 1
+    depth: 0
+    expand_all_items: false

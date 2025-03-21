@@ -1,0 +1,79 @@
+uuid: 89ba8469-c571-44c2-8efb-c67269c5c19d
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+  theme:
+    - worldcampus
+label: 'Four column layout'
+id: sdc.worldcampus.layout-four-col
+provider: worldcampus
+source: sdc
+category: 'Molecule/Four column layout'
+settings:
+  plugin_id: 'worldcampus:layout-four-col'
+  prop_field_definitions:
+    first_width:
+      field_type: list_integer
+      field_storage_settings:
+        allowed_values:
+          -
+            value: 25
+            label: '25'
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: 25
+      expression: ℹ︎list_integer␟value
+    fourth_width:
+      field_type: list_integer
+      field_storage_settings:
+        allowed_values:
+          -
+            value: 25
+            label: '25'
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: 25
+      expression: ℹ︎list_integer␟value
+    gap:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: default
+            label: default
+          -
+            value: large
+            label: large
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: default
+      expression: ℹ︎list_string␟value
+    second_width:
+      field_type: list_integer
+      field_storage_settings:
+        allowed_values:
+          -
+            value: 25
+            label: '25'
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: 25
+      expression: ℹ︎list_integer␟value
+    third_width:
+      field_type: list_integer
+      field_storage_settings:
+        allowed_values:
+          -
+            value: 25
+            label: '25'
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: 25
+      expression: ℹ︎list_integer␟value

@@ -1,0 +1,17 @@
+uuid: c56f0ed0-0385-4deb-aa9a-65dfd1c3149a
+langcode: en
+status: true
+dependencies: {  }
+label: 'Search form'
+id: block.search_form_block
+provider: search
+source: block
+category: Forms
+settings:
+  plugin_id: search_form_block
+  default_settings:
+    id: search_form_block
+    label: 'Search form'
+    label_display: ''
+    provider: search
+    page_id: null

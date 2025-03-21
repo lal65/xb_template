@@ -1,0 +1,20 @@
+uuid: 05a4024e-815b-4c17-9351-1f048aa1a634
+langcode: en
+status: false
+dependencies: {  }
+label: 'Experimental SDC'
+id: sdc.experience_builder.experimental
+provider: experience_builder
+source: sdc
+category: Status
+settings:
+  plugin_id: 'experience_builder:experimental'
+  prop_field_definitions:
+    text:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'A text field'
+      expression: ℹ︎string␟value

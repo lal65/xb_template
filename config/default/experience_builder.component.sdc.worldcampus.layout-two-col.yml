@@ -1,0 +1,79 @@
+uuid: f34716d5-fb74-4706-b912-bad8d75fd30a
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+  theme:
+    - worldcampus
+label: 'Two column layout'
+id: sdc.worldcampus.layout-two-col
+provider: worldcampus
+source: sdc
+category: 'Molecule/Two column layout'
+settings:
+  plugin_id: 'worldcampus:layout-two-col'
+  prop_field_definitions:
+    first_width:
+      field_type: list_integer
+      field_storage_settings:
+        allowed_values:
+          -
+            value: 25
+            label: '25'
+          -
+            value: 33
+            label: '33'
+          -
+            value: 50
+            label: '50'
+          -
+            value: 67
+            label: '67'
+          -
+            value: 75
+            label: '75'
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: 50
+      expression: ℹ︎list_integer␟value
+    gap:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: default
+            label: default
+          -
+            value: large
+            label: large
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: default
+      expression: ℹ︎list_string␟value
+    second_width:
+      field_type: list_integer
+      field_storage_settings:
+        allowed_values:
+          -
+            value: 25
+            label: '25'
+          -
+            value: 33
+            label: '33'
+          -
+            value: 50
+            label: '50'
+          -
+            value: 67
+            label: '67'
+          -
+            value: 75
+            label: '75'
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: 50
+      expression: ℹ︎list_integer␟value

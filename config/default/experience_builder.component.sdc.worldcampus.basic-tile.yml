@@ -1,0 +1,54 @@
+uuid: 81ab2640-a0b4-4b54-88c5-8eb31e14f2d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+  theme:
+    - worldcampus
+label: 'Basic Tile'
+id: sdc.worldcampus.basic-tile
+provider: worldcampus
+source: sdc
+category: 'Molecule/Basic Tile'
+settings:
+  plugin_id: 'worldcampus:basic-tile'
+  prop_field_definitions:
+    primary_label:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'Primary label text'
+      expression: ℹ︎string␟value
+    secondary_label:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'Secondary label text'
+      expression: ℹ︎string␟value
+    tracking_synchronous:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: sync
+            label: sync
+          -
+            value: async
+            label: async
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value: null
+      expression: ℹ︎list_string␟value
+    url:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'https://example.com'
+      expression: ℹ︎string␟value

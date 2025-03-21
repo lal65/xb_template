@@ -1,0 +1,38 @@
+uuid: 4a13c4af-f93d-42f0-a13d-47e68c614d4c
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+label: 'Two Column'
+id: sdc.experience_builder.two_column
+provider: experience_builder
+source: sdc
+category: Container
+settings:
+  plugin_id: 'experience_builder:two_column'
+  prop_field_definitions:
+    width:
+      field_type: list_integer
+      field_storage_settings:
+        allowed_values:
+          -
+            value: 25
+            label: '25'
+          -
+            value: 33
+            label: '33'
+          -
+            value: 50
+            label: '50'
+          -
+            value: 66
+            label: '66'
+          -
+            value: 75
+            label: '75'
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: 25
+      expression: ℹ︎list_integer␟value

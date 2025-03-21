@@ -1,0 +1,35 @@
+uuid: ccf48aaf-74d8-4387-8741-36455fd4bf4a
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+label: 'One Column'
+id: sdc.experience_builder.one_column
+provider: experience_builder
+source: sdc
+category: Container
+settings:
+  plugin_id: 'experience_builder:one_column'
+  prop_field_definitions:
+    width:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: full
+            label: full
+          -
+            value: wide
+            label: wide
+          -
+            value: normal
+            label: normal
+          -
+            value: narrow
+            label: narrow
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: full
+      expression: ℹ︎list_string␟value

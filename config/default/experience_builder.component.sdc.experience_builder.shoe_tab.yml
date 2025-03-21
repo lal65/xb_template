@@ -1,0 +1,49 @@
+uuid: a60d8915-53fd-4b5d-a7d1-7158cdc5323a
+langcode: en
+status: true
+dependencies: {  }
+label: 'Shoe Tab'
+id: sdc.experience_builder.shoe_tab
+provider: experience_builder
+source: sdc
+category: Atom/Tabs
+settings:
+  plugin_id: 'experience_builder:shoe_tab'
+  prop_field_definitions:
+    active:
+      field_type: boolean
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: boolean_checkbox
+      default_value: null
+      expression: ℹ︎boolean␟value
+    closable:
+      field_type: boolean
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: boolean_checkbox
+      default_value: null
+      expression: ℹ︎boolean␟value
+    disabled:
+      field_type: boolean
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: boolean_checkbox
+      default_value: null
+      expression: ℹ︎boolean␟value
+    label:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'Tab 1'
+      expression: ℹ︎string␟value
+    panel:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: tab_1
+      expression: ℹ︎string␟value

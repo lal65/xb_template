@@ -1,0 +1,67 @@
+uuid: 765bc350-a7a6-4cfd-b1d3-46ff782dbc3e
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+  theme:
+    - worldcampus
+label: Address
+id: sdc.worldcampus.physical-address
+provider: worldcampus
+source: sdc
+category: Molecule/Address
+settings:
+  plugin_id: 'worldcampus:physical-address'
+  prop_field_definitions:
+    element:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: address
+            label: address
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value: null
+      expression: ℹ︎list_string␟value
+    locality:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'University Park'
+      expression: ℹ︎string␟value
+    name:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'The Pennsylvania State University'
+      expression: ℹ︎string␟value
+    postcode:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: '16803'
+      expression: ℹ︎string␟value
+    state:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: PA
+      expression: ℹ︎string␟value
+    street:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: '100 Innovation Blvd.'
+      expression: ℹ︎string␟value

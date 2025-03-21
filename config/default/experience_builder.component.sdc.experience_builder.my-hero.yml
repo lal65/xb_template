@@ -1,0 +1,56 @@
+uuid: fcb604b9-aff7-4a04-92c4-1e00877ebfc5
+langcode: en
+status: false
+dependencies:
+  module:
+    - link
+label: Hero
+id: sdc.experience_builder.my-hero
+provider: experience_builder
+source: sdc
+category: Other
+settings:
+  plugin_id: 'experience_builder:my-hero'
+  prop_field_definitions:
+    cta1:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: View
+      expression: ℹ︎string␟value
+    cta1href:
+      field_type: link
+      field_storage_settings: {  }
+      field_instance_settings:
+        title: 0
+      field_widget: link_default
+      default_value:
+        uri: 'https://example.com'
+        options: {  }
+      expression: ℹ︎link␟uri
+    cta2:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: Click
+      expression: ℹ︎string␟value
+    heading:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'There goes my hero'
+      expression: ℹ︎string␟value
+    subheading:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'Watch him as he goes!'
+      expression: ℹ︎string␟value

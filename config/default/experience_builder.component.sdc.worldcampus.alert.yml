@@ -1,0 +1,45 @@
+uuid: 49c95f6d-0a13-4cb9-a6a0-0be2ecd219f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+  theme:
+    - worldcampus
+label: Alert
+id: sdc.worldcampus.alert
+provider: worldcampus
+source: sdc
+category: Molecule/Alert
+settings:
+  plugin_id: 'worldcampus:alert'
+  prop_field_definitions:
+    content:
+      field_type: string_long
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textarea
+      default_value:
+        value: 'Some example text'
+      expression: ℹ︎string_long␟value
+    severity:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: info
+            label: info
+          -
+            value: status
+            label: status
+          -
+            value: warning
+            label: warning
+          -
+            value: error
+            label: error
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: info
+      expression: ℹ︎list_string␟value

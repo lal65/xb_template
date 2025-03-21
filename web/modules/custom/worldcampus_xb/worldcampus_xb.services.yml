@@ -1,0 +1,5 @@
+services:
+  worldcampus_xb.twig.extension:
+    class: Drupal\worldcampus_xb\XBExtension
+    tags:
+      - { name: twig.extension }

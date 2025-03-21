@@ -1,0 +1,22 @@
+uuid: de9040ff-c2c9-4e6a-94f8-6d6930f475b5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - worldcampus
+label: Paragraph
+id: sdc.worldcampus.paragraph
+provider: worldcampus
+source: sdc
+category: Molecule/Paragraph
+settings:
+  plugin_id: 'worldcampus:paragraph'
+  prop_field_definitions:
+    content:
+      field_type: string_long
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textarea
+      default_value:
+        value: 'Some <em>example</em> <strong>text</strong>'
+      expression: ℹ︎string_long␟value

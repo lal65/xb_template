@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.article.body
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
+    - field.field.node.article.field_xb_demo
     - image.style.medium
     - node.type.article
   module:
@@ -50,4 +51,5 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_xb_demo: true

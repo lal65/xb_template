@@ -1,0 +1,46 @@
+uuid: bfacf1b0-cc9a-4f7c-8353-398a2415f83b
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+  theme:
+    - worldcampus
+label: Divider
+id: sdc.worldcampus.divider
+provider: worldcampus
+source: sdc
+category: Molecule/Divider
+settings:
+  plugin_id: 'worldcampus:divider'
+  prop_field_definitions:
+    variant:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: tall-blue-gradient-geometric
+            label: tall-blue-gradient-geometric
+          -
+            value: tall-medium-grey-geometric
+            label: tall-medium-grey-geometric
+          -
+            value: tall-blue-gradient-shield
+            label: tall-blue-gradient-shield
+          -
+            value: tall-medium-grey-shield
+            label: tall-medium-grey-shield
+          -
+            value: standard-light-grey
+            label: standard-light-grey
+          -
+            value: standard-white
+            label: standard-white
+          -
+            value: thin-slate-light
+            label: thin-slate-light
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: tall-blue-gradient-geometric
+      expression: ℹ︎list_string␟value

@@ -1,0 +1,18 @@
+uuid: 45908517-7045-4eb8-8c86-49b8d3108e53
+langcode: en
+status: true
+dependencies: {  }
+label: 'Recent content'
+id: block.views_block.content_recent-block_1
+provider: views
+source: block
+category: 'Lists (Views)'
+settings:
+  plugin_id: 'views_block:content_recent-block_1'
+  default_settings:
+    id: 'views_block:content_recent-block_1'
+    label: 'Recent content'
+    label_display: ''
+    provider: views
+    views_label: ''
+    items_per_page: none

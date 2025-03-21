@@ -1,0 +1,18 @@
+uuid: f99a51b0-e4cb-49a3-9be0-50b08e7b78b0
+langcode: en
+status: true
+dependencies: {  }
+label: "Who's online"
+id: block.views_block.who_s_online-who_s_online_block
+provider: views
+source: block
+category: 'Lists (Views)'
+settings:
+  plugin_id: 'views_block:who_s_online-who_s_online_block'
+  default_settings:
+    id: 'views_block:who_s_online-who_s_online_block'
+    label: "Who's online"
+    label_display: ''
+    provider: views
+    views_label: ''
+    items_per_page: none

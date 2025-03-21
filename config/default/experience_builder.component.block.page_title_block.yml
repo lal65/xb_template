@@ -1,0 +1,16 @@
+uuid: 0e7b67ef-9e76-4607-ad56-bb827a5dff15
+langcode: en
+status: true
+dependencies: {  }
+label: 'Page title'
+id: block.page_title_block
+provider: core
+source: block
+category: core
+settings:
+  plugin_id: page_title_block
+  default_settings:
+    id: page_title_block
+    label: 'Page title'
+    label_display: ''
+    provider: core

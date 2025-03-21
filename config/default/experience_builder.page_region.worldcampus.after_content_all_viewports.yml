@@ -1,0 +1,12 @@
+uuid: f43902fe-a0d9-4e5c-b5ec-c3b53a498e65
+langcode: en
+status: true
+dependencies:
+  theme:
+    - worldcampus
+id: worldcampus.after_content_all_viewports
+region: after_content_all_viewports
+theme: worldcampus
+component_tree:
+  tree: '{"a548b48d-58a8-4077-aa04-da9405a6f418":{}}'
+  inputs: '{}'

@@ -1,0 +1,128 @@
+uuid: f9225b28-2ed4-4112-882d-99630ec94af3
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+  theme:
+    - worldcampus
+label: Heading
+id: sdc.worldcampus.heading
+provider: worldcampus
+source: sdc
+category: Atom/Text
+settings:
+  plugin_id: 'worldcampus:heading'
+  prop_field_definitions:
+    align:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: left
+            label: left
+          -
+            value: center
+            label: center
+          -
+            value: right
+            label: right
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: left
+      expression: ℹ︎list_string␟value
+    content:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'A heading element'
+      expression: ℹ︎string␟value
+    level:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: div
+            label: div
+          -
+            value: h1
+            label: h1
+          -
+            value: h2
+            label: h2
+          -
+            value: h3
+            label: h3
+          -
+            value: h4
+            label: h4
+          -
+            value: h5
+            label: h5
+          -
+            value: h6
+            label: h6
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: h1
+      expression: ℹ︎list_string␟value
+    position:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: flush
+            label: flush
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: flush
+      expression: ℹ︎list_string␟value
+    size:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: xlarge
+            label: xlarge
+          -
+            value: large
+            label: large
+          -
+            value: medium
+            label: medium
+          -
+            value: small
+            label: small
+          -
+            value: xsmall
+            label: xsmall
+          -
+            value: 2xsmall
+            label: 2xsmall
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value: null
+      expression: ℹ︎list_string␟value
+    vspace:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: none
+            label: none
+          -
+            value: small
+            label: small
+          -
+            value: large
+            label: large
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: large
+      expression: ℹ︎list_string␟value

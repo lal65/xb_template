@@ -1,0 +1,16 @@
+uuid: 416cb59f-1c4b-4bfa-a61f-165a22534912
+langcode: en
+status: true
+dependencies: {  }
+label: Breadcrumbs
+id: block.system_breadcrumb_block
+provider: system
+source: block
+category: System
+settings:
+  plugin_id: system_breadcrumb_block
+  default_settings:
+    id: system_breadcrumb_block
+    label: Breadcrumbs
+    label_display: ''
+    provider: system

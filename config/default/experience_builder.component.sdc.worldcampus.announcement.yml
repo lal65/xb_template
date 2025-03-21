@@ -1,0 +1,50 @@
+uuid: fe712677-c816-4fec-9e20-9e5634b75a62
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+  theme:
+    - worldcampus
+label: Announcement
+id: sdc.worldcampus.announcement
+provider: worldcampus
+source: sdc
+category: Molecule/Announcement
+settings:
+  plugin_id: 'worldcampus:announcement'
+  prop_field_definitions:
+    content:
+      field_type: string_long
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textarea
+      default_value:
+        value: 'The announcement content'
+      expression: ℹ︎string_long␟value
+    label:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'The announcement label'
+      expression: ℹ︎string␟value
+    severity:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: notice
+            label: notice
+          -
+            value: warning
+            label: warning
+          -
+            value: emergency
+            label: emergency
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: notice
+      expression: ℹ︎list_string␟value

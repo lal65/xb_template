@@ -1,0 +1,22 @@
+uuid: 3738560a-74a9-48d2-a2d6-259fbdaae517
+langcode: en
+status: true
+dependencies:
+  theme:
+    - worldcampus
+label: 'Social Icons'
+id: sdc.worldcampus.social-icons
+provider: worldcampus
+source: sdc
+category: 'Molecule/Social Icons'
+settings:
+  plugin_id: 'worldcampus:social-icons'
+  prop_field_definitions:
+    dummy:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'dummy prop'
+      expression: ℹ︎string␟value

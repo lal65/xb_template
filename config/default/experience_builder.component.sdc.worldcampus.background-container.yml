@@ -1,0 +1,84 @@
+uuid: 4ad110bc-3713-48b4-88aa-b3b21421ab91
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+  theme:
+    - worldcampus
+label: 'Background Container'
+id: sdc.worldcampus.background-container
+provider: worldcampus
+source: sdc
+category: 'Molecule/Background Container'
+settings:
+  plugin_id: 'worldcampus:background-container'
+  prop_field_definitions:
+    background_image:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: 'hub-geometric:topleft'
+            label: 'hub-geometric:topleft'
+          -
+            value: 'hub-geometric:topright'
+            label: 'hub-geometric:topright'
+          -
+            value: 'hub-geometric:bottomleft'
+            label: 'hub-geometric:bottomleft'
+          -
+            value: 'hub-geometric:bottomright'
+            label: 'hub-geometric:bottomright'
+          -
+            value: 'shield:left'
+            label: 'shield:left'
+          -
+            value: 'shield:right'
+            label: 'shield:right'
+          -
+            value: 'shield:bottomright'
+            label: 'shield:bottomright'
+          -
+            value: 'shield:topleft-bottomright'
+            label: 'shield:topleft-bottomright'
+          -
+            value: 'shield:program-page-banner-top'
+            label: 'shield:program-page-banner-top'
+          -
+            value: 'shield:program-page-at-a-glance'
+            label: 'shield:program-page-at-a-glance'
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: 'hub-geometric:topright'
+      expression: ℹ︎list_string␟value
+    color:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: transparent
+            label: transparent
+          -
+            value: light-grey
+            label: light-grey
+          -
+            value: beaver-blue
+            label: beaver-blue
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: beaver-blue
+      expression: ℹ︎list_string␟value
+    width:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: narrow
+            label: narrow
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value: null
+      expression: ℹ︎list_string␟value

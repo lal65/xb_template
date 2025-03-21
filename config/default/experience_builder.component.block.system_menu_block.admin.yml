@@ -1,0 +1,19 @@
+uuid: ed7eebbe-2e25-412d-b955-83180dd00118
+langcode: en
+status: false
+dependencies: {  }
+label: Administration
+id: block.system_menu_block.admin
+provider: system
+source: block
+category: Menus
+settings:
+  plugin_id: 'system_menu_block:admin'
+  default_settings:
+    id: 'system_menu_block:admin'
+    label: Administration
+    label_display: ''
+    provider: system
+    level: 1
+    depth: 0
+    expand_all_items: false

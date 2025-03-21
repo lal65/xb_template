@@ -1,0 +1,19 @@
+uuid: 3688561a-ed6c-4cd7-b47b-0971685a8448
+langcode: en
+status: true
+dependencies: {  }
+label: 'Main navigation'
+id: block.system_menu_block.main
+provider: system
+source: block
+category: Menus
+settings:
+  plugin_id: 'system_menu_block:main'
+  default_settings:
+    id: 'system_menu_block:main'
+    label: 'Main navigation'
+    label_display: ''
+    provider: system
+    level: 1
+    depth: 0
+    expand_all_items: false

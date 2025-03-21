@@ -1,0 +1,12 @@
+uuid: 89cb041d-2e1c-4b8e-9348-7a2a0fc3faba
+langcode: en
+status: true
+dependencies:
+  theme:
+    - worldcampus
+id: worldcampus.aside
+region: aside
+theme: worldcampus
+component_tree:
+  tree: '{"a548b48d-58a8-4077-aa04-da9405a6f418":{}}'
+  inputs: '{}'

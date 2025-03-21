@@ -1,0 +1,52 @@
+uuid: e73f10fd-ecb0-4233-924d-f916b66839ee
+langcode: en
+status: true
+dependencies:
+  theme:
+    - worldcampus
+label: 'Expandable Section'
+id: sdc.worldcampus.expandable-section
+provider: worldcampus
+source: sdc
+category: 'Molecule/Expandable Section'
+settings:
+  plugin_id: 'worldcampus:expandable-section'
+  prop_field_definitions:
+    collapse_label:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'Collapse content'
+      expression: ℹ︎string␟value
+    expand_label:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'Expand content'
+      expression: ℹ︎string␟value
+    id:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: ''
+      expression: ℹ︎string␟value
+    section:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value: null
+      expression: ℹ︎string␟value
+    toc_label:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value: null
+      expression: ℹ︎string␟value

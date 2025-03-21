@@ -1,0 +1,21 @@
+uuid: 3bca4c6e-4537-4a65-a209-0842a035d19a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - worldcampus
+label: Header
+id: sdc.worldcampus.header
+provider: worldcampus
+source: sdc
+category: Molecule/Header
+settings:
+  plugin_id: 'worldcampus:header'
+  prop_field_definitions:
+    dummy:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value: null
+      expression: ℹ︎string␟value

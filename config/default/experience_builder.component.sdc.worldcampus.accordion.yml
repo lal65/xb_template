@@ -1,0 +1,106 @@
+uuid: 95ab6a8c-19b4-47b6-8f47-e655fec9dbba
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+  theme:
+    - worldcampus
+label: Accordion
+id: sdc.worldcampus.accordion
+provider: worldcampus
+source: sdc
+category: Molecule/Accordion
+settings:
+  plugin_id: 'worldcampus:accordion'
+  prop_field_definitions:
+    borderless:
+      field_type: boolean
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: boolean_checkbox
+      default_value: null
+      expression: ℹ︎boolean␟value
+    expanded:
+      field_type: boolean
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: boolean_checkbox
+      default_value:
+        value: 0
+      expression: ℹ︎boolean␟value
+    heading_level:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: h2
+            label: h2
+          -
+            value: h3
+            label: h3
+          -
+            value: h4
+            label: h4
+          -
+            value: h5
+            label: h5
+          -
+            value: h6
+            label: h6
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value: null
+      expression: ℹ︎list_string␟value
+    heading_style:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: xlarge
+            label: xlarge
+          -
+            value: large
+            label: large
+          -
+            value: medium
+            label: medium
+          -
+            value: small
+            label: small
+          -
+            value: xsmall
+            label: xsmall
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value: null
+      expression: ℹ︎list_string␟value
+    id:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: ''
+      expression: ℹ︎string␟value
+    indent_content:
+      field_type: boolean
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: boolean_checkbox
+      default_value: null
+      expression: ℹ︎boolean␟value
+    section:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value: null
+      expression: ℹ︎string␟value
+    toc_label:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value: null
+      expression: ℹ︎string␟value

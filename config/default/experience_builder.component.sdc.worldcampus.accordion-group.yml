@@ -1,0 +1,21 @@
+uuid: ca296600-44a6-48fe-9ec4-fd7803a3232d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - worldcampus
+label: 'Accordion group'
+id: sdc.worldcampus.accordion-group
+provider: worldcampus
+source: sdc
+category: Organism/Accordion
+settings:
+  plugin_id: 'worldcampus:accordion-group'
+  prop_field_definitions:
+    section:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value: null
+      expression: ℹ︎string␟value

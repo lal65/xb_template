@@ -1,0 +1,51 @@
+uuid: 4af76d46-ae56-49a5-9a40-fb2cc7525cbb
+langcode: en
+status: true
+dependencies:
+  module:
+    - image
+  theme:
+    - worldcampus
+label: Card
+id: sdc.worldcampus.card
+provider: worldcampus
+source: sdc
+category: Molecule/Card
+settings:
+  plugin_id: 'worldcampus:card'
+  prop_field_definitions:
+    image:
+      field_type: image
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: image_image
+      default_value: {  }
+      expression: 'ℹ︎image␟{src↝entity␜␜entity:file␝uri␞␟url,alt↠alt,width↠width,height↠height}'
+    image_decorative:
+      field_type: boolean
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: boolean_checkbox
+      default_value: null
+      expression: ℹ︎boolean␟value
+    link_attribution:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value: null
+      expression: ℹ︎string␟value
+    link_text:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value: null
+      expression: ℹ︎string␟value
+    link_url:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value: null
+      expression: ℹ︎string␟value

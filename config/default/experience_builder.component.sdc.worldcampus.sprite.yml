@@ -1,0 +1,355 @@
+uuid: 2b78611a-f359-43f1-9d9c-2b663a564c38
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+  theme:
+    - worldcampus
+label: Sprite
+id: sdc.worldcampus.sprite
+provider: worldcampus
+source: sdc
+category: Molecule/Sprite
+settings:
+  plugin_id: 'worldcampus:sprite'
+  prop_field_definitions:
+    expand:
+      field_type: boolean
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: boolean_checkbox
+      default_value: null
+      expression: ℹ︎boolean␟value
+    label:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value: null
+      expression: ℹ︎string␟value
+    link:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value: null
+      expression: ℹ︎string␟value
+    name:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: blog
+            label: blog
+          -
+            value: community-shield
+            label: community-shield
+          -
+            value: custom-grass
+            label: custom-grass
+          -
+            value: envelope
+            label: envelope
+          -
+            value: fa-angle-up
+            label: fa-angle-up
+          -
+            value: fa-arrows-maximize
+            label: fa-arrows-maximize
+          -
+            value: fa-bars
+            label: fa-bars
+          -
+            value: fa-check-circle
+            label: fa-check-circle
+          -
+            value: fa-chevron-double-left
+            label: fa-chevron-double-left
+          -
+            value: fa-chevron-double-right
+            label: fa-chevron-double-right
+          -
+            value: fa-chevron-left
+            label: fa-chevron-left
+          -
+            value: fa-circle-arrow-down
+            label: fa-circle-arrow-down
+          -
+            value: fa-circle-notch
+            label: fa-circle-notch
+          -
+            value: fa-circle-plus
+            label: fa-circle-plus
+          -
+            value: fa-circle-question
+            label: fa-circle-question
+          -
+            value: fa-clock
+            label: fa-clock
+          -
+            value: fa-exclamation
+            label: fa-exclamation
+          -
+            value: fa-exclamation-circle
+            label: fa-exclamation-circle
+          -
+            value: fa-exclamation-triangle
+            label: fa-exclamation-triangle
+          -
+            value: fa-filter-solid
+            label: fa-filter-solid
+          -
+            value: fa-plus-circle
+            label: fa-plus-circle
+          -
+            value: fa-spinner-third
+            label: fa-spinner-third
+          -
+            value: fa-times
+            label: fa-times
+          -
+            value: facebook
+            label: facebook
+          -
+            value: fas-arrow-up
+            label: fas-arrow-up
+          -
+            value: fas-arrow-up-right-from-square
+            label: fas-arrow-up-right-from-square
+          -
+            value: fas-atom-simple
+            label: fas-atom-simple
+          -
+            value: fas-bolt
+            label: fas-bolt
+          -
+            value: fas-book
+            label: fas-book
+          -
+            value: fas-book-open-reader
+            label: fas-book-open-reader
+          -
+            value: fas-briefcase
+            label: fas-briefcase
+          -
+            value: fas-briefcase-medical
+            label: fas-briefcase-medical
+          -
+            value: fas-building-columns
+            label: fas-building-columns
+          -
+            value: fas-building-user
+            label: fas-building-user
+          -
+            value: fas-calculator
+            label: fas-calculator
+          -
+            value: fas-calendar-days
+            label: fas-calendar-days
+          -
+            value: fas-camera
+            label: fas-camera
+          -
+            value: fas-certificate
+            label: fas-certificate
+          -
+            value: fas-chalkboard-user
+            label: fas-chalkboard-user
+          -
+            value: fas-chart-line
+            label: fas-chart-line
+          -
+            value: fas-chevron-down
+            label: fas-chevron-down
+          -
+            value: fas-chevron-right
+            label: fas-chevron-right
+          -
+            value: fas-chevron-up
+            label: fas-chevron-up
+          -
+            value: fas-child-reaching
+            label: fas-child-reaching
+          -
+            value: fas-circle-bolt
+            label: fas-circle-bolt
+          -
+            value: fas-circle-info
+            label: fas-circle-info
+          -
+            value: fas-comments
+            label: fas-comments
+          -
+            value: fas-computer-classic
+            label: fas-computer-classic
+          -
+            value: fas-earth-americas
+            label: fas-earth-americas
+          -
+            value: fas-ellipsis
+            label: fas-ellipsis
+          -
+            value: fas-ellipsis-vertical
+            label: fas-ellipsis-vertical
+          -
+            value: fas-family
+            label: fas-family
+          -
+            value: fas-file-pdf
+            label: fas-file-pdf
+          -
+            value: fas-flower-tulip
+            label: fas-flower-tulip
+          -
+            value: fas-gear
+            label: fas-gear
+          -
+            value: fas-globe
+            label: fas-globe
+          -
+            value: fas-graduation-cap
+            label: fas-graduation-cap
+          -
+            value: fas-handshake-simple
+            label: fas-handshake-simple
+          -
+            value: fas-house
+            label: fas-house
+          -
+            value: fas-image
+            label: fas-image
+          -
+            value: fas-landmark
+            label: fas-landmark
+          -
+            value: fas-laptop
+            label: fas-laptop
+          -
+            value: fas-layer-group
+            label: fas-layer-group
+          -
+            value: fas-leaf-maple
+            label: fas-leaf-maple
+          -
+            value: fas-lightbulb-on
+            label: fas-lightbulb-on
+          -
+            value: fas-list-check
+            label: fas-list-check
+          -
+            value: fas-magnifying-glass
+            label: fas-magnifying-glass
+          -
+            value: fas-magnifying-glass-chart
+            label: fas-magnifying-glass-chart
+          -
+            value: fas-message
+            label: fas-message
+          -
+            value: fas-money-bill
+            label: fas-money-bill
+          -
+            value: fas-newspaper
+            label: fas-newspaper
+          -
+            value: fas-notes-medical
+            label: fas-notes-medical
+          -
+            value: fas-object-group
+            label: fas-object-group
+          -
+            value: fas-paper-plane
+            label: fas-paper-plane
+          -
+            value: fas-pencil
+            label: fas-pencil
+          -
+            value: fas-people-roof
+            label: fas-people-roof
+          -
+            value: fas-photo-film
+            label: fas-photo-film
+          -
+            value: fas-photo-film-music
+            label: fas-photo-film-music
+          -
+            value: fas-plug-circle-check
+            label: fas-plug-circle-check
+          -
+            value: fas-plus
+            label: fas-plus
+          -
+            value: fas-raindrops
+            label: fas-raindrops
+          -
+            value: fas-scale-balanced
+            label: fas-scale-balanced
+          -
+            value: fas-school
+            label: fas-school
+          -
+            value: fas-seedling
+            label: fas-seedling
+          -
+            value: fas-shield-quartered
+            label: fas-shield-quartered
+          -
+            value: fas-sitemap
+            label: fas-sitemap
+          -
+            value: fas-sun
+            label: fas-sun
+          -
+            value: fas-trash
+            label: fas-trash
+          -
+            value: fas-user-doctor
+            label: fas-user-doctor
+          -
+            value: fas-user-group
+            label: fas-user-group
+          -
+            value: fas-wind-turbine
+            label: fas-wind-turbine
+          -
+            value: flickr
+            label: flickr
+          -
+            value: hub-geometric
+            label: hub-geometric
+          -
+            value: instagram
+            label: instagram
+          -
+            value: linkedin
+            label: linkedin
+          -
+            value: phone
+            label: phone
+          -
+            value: pinterest
+            label: pinterest
+          -
+            value: psu-mark
+            label: psu-mark
+          -
+            value: tiktok
+            label: tiktok
+          -
+            value: twitter
+            label: twitter
+          -
+            value: wc-mark
+            label: wc-mark
+          -
+            value: youtube
+            label: youtube
+          -
+            value: youtube-player
+            label: youtube-player
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: psu-mark
+      expression: ℹ︎list_string␟value

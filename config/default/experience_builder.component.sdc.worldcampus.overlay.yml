@@ -1,0 +1,102 @@
+uuid: c7e27514-59ea-47f9-931f-619523cccea1
+langcode: en
+status: true
+dependencies:
+  module:
+    - image
+    - options
+  theme:
+    - worldcampus
+label: Overlay
+id: sdc.worldcampus.overlay
+provider: worldcampus
+source: sdc
+category: Molecule/Overlay
+settings:
+  plugin_id: 'worldcampus:overlay'
+  prop_field_definitions:
+    background_position:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: top-left
+            label: top-left
+          -
+            value: top-right
+            label: top-right
+          -
+            value: center-left
+            label: center-left
+          -
+            value: center-center
+            label: center-center
+          -
+            value: center-right
+            label: center-right
+          -
+            value: bottom-left
+            label: bottom-left
+          -
+            value: bottom-center
+            label: bottom-center
+          -
+            value: bottom-right
+            label: bottom-right
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: top-center
+      expression: ℹ︎list_string␟value
+    column_width:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: narrow
+            label: narrow
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: narrow
+      expression: ℹ︎list_string␟value
+    image:
+      field_type: image
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: image_image
+      default_value: {  }
+      expression: 'ℹ︎image␟{src↝entity␜␜entity:file␝uri␞␟url,alt↠alt,width↠width,height↠height}'
+    overlay_bg_color:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: blue-gradient
+            label: blue-gradient
+          -
+            value: beaver-blue
+            label: beaver-blue
+          -
+            value: light-grey
+            label: light-grey
+          -
+            value: white
+            label: white
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: blue-gradient
+      expression: ℹ︎list_string␟value
+    overlay_width:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: wide
+            label: wide
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: wide
+      expression: ℹ︎list_string␟value

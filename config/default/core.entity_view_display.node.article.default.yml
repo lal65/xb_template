@@ -6,9 +6,11 @@ dependencies:
     - field.field.node.article.body
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
+    - field.field.node.article.field_xb_demo
     - image.style.wide
     - node.type.article
   module:
+    - experience_builder
     - image
     - text
     - user
@@ -44,6 +46,13 @@ content:
       link: true
     third_party_settings: {  }
     weight: 10
+    region: content
+  field_xb_demo:
+    type: experience_builder_naive_render_sdc_tree
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: -2
     region: content
   links:
     settings: {  }

@@ -1,0 +1,20 @@
+uuid: f73bcd94-9863-403f-9ee5-ef510e3470b4
+langcode: en
+status: true
+dependencies: {  }
+label: Section
+id: sdc.experience_builder.my-section
+provider: experience_builder
+source: sdc
+category: Other
+settings:
+  plugin_id: 'experience_builder:my-section'
+  prop_field_definitions:
+    text:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'Our mission is to deliver the best products and services to our customers. We strive to exceed expectations and continuously improve our offerings.'
+      expression: ℹ︎string␟value

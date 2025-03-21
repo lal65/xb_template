@@ -1,0 +1,29 @@
+uuid: 278cf62d-e8dd-4ac9-913b-4147d50cedb4
+langcode: en
+status: true
+dependencies:
+  theme:
+    - worldcampus
+label: Text
+id: sdc.worldcampus.text
+provider: worldcampus
+source: sdc
+category: Molecule/Text
+settings:
+  plugin_id: 'worldcampus:text'
+  prop_field_definitions:
+    content:
+      field_type: string_long
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textarea
+      default_value:
+        value: 'Some example text'
+      expression: ℹ︎string_long␟value
+    wrap:
+      field_type: boolean
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: boolean_checkbox
+      default_value: null
+      expression: ℹ︎boolean␟value

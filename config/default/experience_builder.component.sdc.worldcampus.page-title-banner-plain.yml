@@ -1,0 +1,38 @@
+uuid: 5a43d0d0-4e31-40e8-bd90-f04feb08096a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - worldcampus
+label: 'Plain page title'
+id: sdc.worldcampus.page-title-banner-plain
+provider: worldcampus
+source: sdc
+category: 'Molecule/Plain page title'
+settings:
+  plugin_id: 'worldcampus:page-title-banner-plain'
+  prop_field_definitions:
+    subtitle_after:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: Subtitle-after
+      expression: ℹ︎string␟value
+    subtitle_before:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: Subtitle-before
+      expression: ℹ︎string␟value
+    title:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: Title
+      expression: ℹ︎string␟value

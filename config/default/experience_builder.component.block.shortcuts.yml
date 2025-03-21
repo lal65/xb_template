@@ -1,0 +1,16 @@
+uuid: 8fd75247-4bfe-4e3f-bde5-1080baf5c4d0
+langcode: en
+status: true
+dependencies: {  }
+label: Shortcuts
+id: block.shortcuts
+provider: shortcut
+source: block
+category: Menus
+settings:
+  plugin_id: shortcuts
+  default_settings:
+    id: shortcuts
+    label: Shortcuts
+    label_display: ''
+    provider: shortcut

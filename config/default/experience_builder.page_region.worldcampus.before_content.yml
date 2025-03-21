@@ -1,0 +1,14 @@
+uuid: fc708d1a-df13-4dc1-bd66-a986dd1e0e1d
+langcode: en
+status: true
+dependencies:
+  config:
+    - experience_builder.component.sdc.worldcampus.page-title-banner-plain
+  theme:
+    - worldcampus
+id: worldcampus.before_content
+region: before_content
+theme: worldcampus
+component_tree:
+  tree: '{"a548b48d-58a8-4077-aa04-da9405a6f418":{"0":{"uuid":"74b48512-bb0c-4950-b20b-ff4eb4811d4d","component":"sdc.worldcampus.page-title-banner-plain"}}}'
+  inputs: '{"74b48512-bb0c-4950-b20b-ff4eb4811d4d":{"title":{"sourceType":"static:field_item:string","value":"Experience Builder","expression":"ℹ︎string␟value"},"subtitle_after":{"sourceType":"static:field_item:string","value":"Design System Demo","expression":"ℹ︎string␟value"},"subtitle_before":{"sourceType":"static:field_item:string","value":"Penn State World Campus","expression":"ℹ︎string␟value"}}}'

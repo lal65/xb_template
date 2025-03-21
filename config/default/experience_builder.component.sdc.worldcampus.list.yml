@@ -1,0 +1,68 @@
+uuid: 64e2bd55-d55f-46d0-a9ef-9d9ff2422472
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+  theme:
+    - worldcampus
+label: List
+id: sdc.worldcampus.list
+provider: worldcampus
+source: sdc
+category: Molecule/List
+settings:
+  plugin_id: 'worldcampus:list'
+  prop_field_definitions:
+    density:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: loose
+            label: loose
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value: null
+      expression: ℹ︎list_string␟value
+    list_semantic:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: unordered
+            label: unordered
+          -
+            value: ordered
+            label: ordered
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: unordered
+      expression: ℹ︎list_string␟value
+    orientation:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: vertical
+            label: vertical
+          -
+            value: horizontal
+            label: horizontal
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: vertical
+      expression: ℹ︎list_string␟value
+    separator:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: dot
+            label: dot
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value: null
+      expression: ℹ︎list_string␟value

@@ -1,0 +1,30 @@
+uuid: 2af2cb99-593e-47eb-96e2-2e9083e14731
+langcode: en
+status: true
+dependencies:
+  theme:
+    - worldcampus
+label: Blockquote
+id: sdc.worldcampus.blockquote
+provider: worldcampus
+source: sdc
+category: 'Molecule/Block Quote'
+settings:
+  plugin_id: 'worldcampus:blockquote'
+  prop_field_definitions:
+    attribution:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'Ayn Rand'
+      expression: ℹ︎string␟value
+    quote:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: "The question isn't who is going to let me; it's who is going to stop me."
+      expression: ℹ︎string␟value

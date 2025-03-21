@@ -1,0 +1,102 @@
+uuid: 52d7cfb7-1366-45eb-9d65-7c37fc10485b
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+  theme:
+    - worldcampus
+label: Callout
+id: sdc.worldcampus.callout
+provider: worldcampus
+source: sdc
+category: Molecule/Callout
+settings:
+  plugin_id: 'worldcampus:callout'
+  prop_field_definitions:
+    background:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: transparent
+            label: transparent
+          -
+            value: white
+            label: white
+          -
+            value: light-grey
+            label: light-grey
+          -
+            value: blue-gradient
+            label: blue-gradient
+          -
+            value: blue
+            label: blue
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value:
+        value: transparent
+      expression: ℹ︎list_string␟value
+    padding_horizontal:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: small-percentage
+            label: small-percentage
+          -
+            value: medium-percentage
+            label: medium-percentage
+          -
+            value: large-percentage
+            label: large-percentage
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value: null
+      expression: ℹ︎list_string␟value
+    padding_vertical:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: xsmall
+            label: xsmall
+          -
+            value: small
+            label: small
+          -
+            value: small-percentage
+            label: small-percentage
+          -
+            value: medium-percentage
+            label: medium-percentage
+          -
+            value: large-percentage
+            label: large-percentage
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value: null
+      expression: ℹ︎list_string␟value
+    shadow:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: standard
+            label: standard
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value: null
+      expression: ℹ︎list_string␟value
+    width:
+      field_type: list_string
+      field_storage_settings:
+        allowed_values:
+          -
+            value: narrow
+            label: narrow
+      field_instance_settings: {  }
+      field_widget: options_select
+      default_value: null
+      expression: ℹ︎list_string␟value

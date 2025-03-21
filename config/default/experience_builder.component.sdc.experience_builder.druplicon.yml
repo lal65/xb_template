@@ -1,0 +1,12 @@
+uuid: 1c22c636-388b-460e-ae14-c2fd8d8f7197
+langcode: en
+status: true
+dependencies: {  }
+label: Druplicon
+id: sdc.experience_builder.druplicon
+provider: experience_builder
+source: sdc
+category: Other
+settings:
+  plugin_id: 'experience_builder:druplicon'
+  prop_field_definitions: {  }

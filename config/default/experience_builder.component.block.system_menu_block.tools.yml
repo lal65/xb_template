@@ -1,0 +1,19 @@
+uuid: aec3e0bf-1cba-42b3-935f-08479ad45216
+langcode: en
+status: true
+dependencies: {  }
+label: Tools
+id: block.system_menu_block.tools
+provider: system
+source: block
+category: Menus
+settings:
+  plugin_id: 'system_menu_block:tools'
+  default_settings:
+    id: 'system_menu_block:tools'
+    label: Tools
+    label_display: ''
+    provider: system
+    level: 1
+    depth: 0
+    expand_all_items: false

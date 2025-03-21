@@ -1,0 +1,21 @@
+uuid: 7c7503a4-2ec7-4d44-b1ec-ea6d31b42e65
+langcode: en
+status: true
+dependencies:
+  module:
+    - image
+label: Image
+id: sdc.experience_builder.image
+provider: experience_builder
+source: sdc
+category: Other
+settings:
+  plugin_id: 'experience_builder:image'
+  prop_field_definitions:
+    image:
+      field_type: image
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: image_image
+      default_value: {  }
+      expression: 'ℹ︎image␟{src↝entity␜␜entity:file␝uri␞␟url,alt↠alt,width↠width,height↠height}'

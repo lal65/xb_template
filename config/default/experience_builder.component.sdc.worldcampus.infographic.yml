@@ -1,0 +1,38 @@
+uuid: a671b13d-5d52-4467-8220-7a4160e2cc6f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - worldcampus
+label: Infographic
+id: sdc.worldcampus.infographic
+provider: worldcampus
+source: sdc
+category: Molecule/Infographic
+settings:
+  plugin_id: 'worldcampus:infographic'
+  prop_field_definitions:
+    emphasis:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: '16'
+      expression: ℹ︎string␟value
+    preliminary:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'Liberal arts and communications'
+      expression: ℹ︎string␟value
+    primary:
+      field_type: string
+      field_storage_settings: {  }
+      field_instance_settings: {  }
+      field_widget: string_textfield
+      default_value:
+        value: 'Degrees and Certificates'
+      expression: ℹ︎string␟value

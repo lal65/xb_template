@@ -1,0 +1,4 @@
+name: World Campus XB
+type: module
+description: Provides some extra Twig functions and filters.
+core_version_requirement: ^11

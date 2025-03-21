@@ -1,0 +1,19 @@
+uuid: bf9e3cd2-9ffa-47fe-b56d-38b5b8c2d8fc
+langcode: en
+status: false
+dependencies: {  }
+label: Footer
+id: block.system_menu_block.footer
+provider: system
+source: block
+category: Menus
+settings:
+  plugin_id: 'system_menu_block:footer'
+  default_settings:
+    id: 'system_menu_block:footer'
+    label: Footer
+    label_display: ''
+    provider: system
+    level: 1
+    depth: 0
+    expand_all_items: false

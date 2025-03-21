@@ -1,0 +1,16 @@
+uuid: 7b8cf2bb-97a6-4520-85f8-ff7a6576b2a8
+langcode: en
+status: true
+dependencies: {  }
+label: 'User login'
+id: block.user_login_block
+provider: user
+source: block
+category: Forms
+settings:
+  plugin_id: user_login_block
+  default_settings:
+    id: user_login_block
+    label: 'User login'
+    label_display: ''
+    provider: user
