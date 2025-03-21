@@ -18,9 +18,9 @@
             "package": {
                 "name": "lal65/worldcampus",
                 "type": "drupal-theme",
-                "version": "0.0.3",
+                "version": "0.0.4",
                 "dist": {
-                    "url": "https://github.com/lal65/worldcampus/releases/download/0.0.3/worldcampus.tgz",
+                    "url": "https://github.com/lal65/worldcampus/releases/download/0.0.4/worldcampus.tgz",
                     "type": "tar"
                 }
             }
@@ -38,7 +38,7 @@
         "drupal/gin_toolbar": "^2.0",
         "drupal/twig_tweak": "^3.4",
         "drush/drush": "^13.4",
-        "lal65/worldcampus": "0.0.3"
+        "lal65/worldcampus": "0.0.4"
     },
     "conflict": {
         "drupal/drupal": "*"
